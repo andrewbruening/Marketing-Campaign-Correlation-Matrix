@@ -8,7 +8,7 @@
 ## XYZ Marketing Campaign Correlation Matrix
 **AdventureWorks is a Microsoft product sample for an online transaction processing (OLTP) [database].**
  
-![](Dashboard_Screenshots/dash.png)
+![](Dashboard_Screenshots/dashboard.jpg)
  
 This readme includes various screenshots, but you can view the actual dashboard [here]
 
