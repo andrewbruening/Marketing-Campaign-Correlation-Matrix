@@ -22,9 +22,13 @@ This readme includes various screenshots, but you can view the actual dashboard 
 
 
 ## Data Insights
+ 
 ![](Dashboard_Screenshots/campaign.png)
+ 
 **Demographics:** Our analysis points to a predominantly family-focused, upper middle class population who are likely to have multiple children and live in the Pacific Northwest. Genders are equally represented, slightly favoring married couples, and strongly favoring a college education.
+ 
 ![](Dashboard_Screenshots/demographics.png)
+ 
 **Location:** Destination-specific content can be A/B tested on the creative level.
 
     1. Imagery featuring recognizable locations may pique the interest of top-of-funnel colder customers (Crissy Field, Mount Rainier, etc.)
@@ -32,7 +36,9 @@ This readme includes various screenshots, but you can view the actual dashboard 
     2. PNW cities like San Francisco, Portland, and Vancouver are known to be well-traveled by commuters riding bikes to-and-from work, which surely makes up a considerable portion of Road Bike and Touring Bike purchases.
 
     3. The Seattle to Portland (STP) Bicycle Classic is one of the largest recreational bike rides in the country. Each year, thousands of riders participate in this multi-day event. With 77% of our customers in the PNW, the STP poses a potential partnership opportunity, or at the very least, viable inspiration for advertisements.
+     
 ![](Dashboard_Screenshots/product.png)
+ 
 **Age:** The age range of 40-65 is particularly responsive to Facebook Ads but is most likely not using TikTok or Instagram. In order to target this population properly via Facebook:
 
     1. Create 1-2% lookalike audiences via Facebook Ads from an email list, or from the followers of competitors like REI, MEC, and Cannondale. 
@@ -42,14 +48,18 @@ This readme includes various screenshots, but you can view the actual dashboard 
     3. A/B test on the creative level with casual family-oriented biking imagery and copy. 
 
     4. These will be top-of-funnel campaigns, so cost will be measured based on CPM.
+     
 ![](Dashboard_Screenshots/purchase_method.png)
+ 
 **Campaign Type:**
 Campaign 6 was responsible for most of our sales conversions by a margin of 200%. But for a few different reasons, the conclusions we can draw from this knowledge are limited by the depth of our dataset. We're now encouraged to ask new questions:
 
 • What were the types of each campaign? If 6 was our only sales conversion campaign, and others were lead gen or engagement campaigns, then our limited breadth of metrics are apples and oranges.
 
 • When did these campaigns start and end? Use this information to filter sales metrics by concurrent campaign response data.
+ 
 ![](Dashboard_Screenshots/moving_forward.png)
+ 
 **Marital Status:** The importance of marital status as a metric is its pertinence to detailed targeting in FB/IG ads. We can target a few different types of relationship statuses, however our dataset includes some undesirable/ambiguous values.
 
 In addition to Married and Single, we have:
