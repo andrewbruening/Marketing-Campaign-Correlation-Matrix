@@ -12,14 +12,14 @@
  
 This readme includes various screenshots, but you can view the interactive dashboard [here].
  
-The dataset was taken from Kaggle, thanks to user [JackDaoud].
->"**The is a CSV file of 2240 observations (customers) with 28 variables related to marketing data.** 
+The dataset was taken from Kaggle, thanks to user [JackDaoud]:
+>**The is a CSV file of 2240 observations (customers) with 28 variables related to marketing data.** 
 >More specifically, the variables provide insights about:
 >
 >- Customer profiles
 >- Products purchased
 >- Campaign success (or failure)
->- Channel performance"
+>- Channel performance
 
 ## Approach
 
@@ -45,38 +45,47 @@ All in all, these are the dataframes we need to create in Python
  
 ![](Dashboard_Screenshots/campaign.png)
  
-**Demographics:** Our analysis points to a predominantly family-focused, upper middle class population who are likely to have multiple children and live in the Pacific Northwest. Genders are equally represented, slightly favoring married couples, and strongly favoring a college education.
+**Each campaign has its own strengths and weaknesses** 
+Campaigns 1 and 5
+Strong inverse correlation with website views 
+TOF: Keep submission forms local to Facebook/Instagram/etc.
+BOF: Capture leads, opt for email marketing for conversions
+Campaign 3 related to increase of web visits, but not web sales (TOF, eval with CPM)
+Campaign 4 was more likely to convert via web (BOF, eval with CPC)
  
 ![](Dashboard_Screenshots/demographics.png)
  
-**Location:** Destination-specific content can be A/B tested on the creative level.
-
-    1. Imagery featuring recognizable locations may pique the interest of top-of-funnel colder customers (Crissy Field, Mount Rainier, etc.)
-
-    2. PNW cities like San Francisco, Portland, and Vancouver are known to be well-traveled by commuters riding bikes to-and-from work, which surely makes up a considerable portion of Road Bike and Touring Bike purchases.
-
-    3. The Seattle to Portland (STP) Bicycle Classic is one of the largest recreational bike rides in the country. Each year, thousands of riders participate in this multi-day event. With 77% of our customers in the PNW, the STP poses a potential partnership opportunity, or at the very least, viable inspiration for advertisements.
+**Come for the wine, stay for everything else** 
+Wine sales are greater than the sales of all other categories combined
+Sales of all product types were less likely among customers with children
+Incentivize spending for these customers
+Are they more/less likely to be interested in customer rewards programs?
+Basket size is an important metric that we don’t have
+Large basket sizes may compensate for less frequent visits (see: website visits)
      
 ![](Dashboard_Screenshots/product.png)
  
-**Age:** The age range of 40-65 is particularly responsive to Facebook Ads but is most likely not using TikTok or Instagram. In order to target this population properly via Facebook:
-
-    1. Create 1-2% lookalike audiences via Facebook Ads from an email list, or from the followers of competitors like REI, MEC, and Cannondale. 
-
-    2. These audiences should match at least 1000 people in the market, and be combined with detailed targeting on the ad set level for use in Messages or Lead Generation campaigns.
-
-    3. A/B test on the creative level with casual family-oriented biking imagery and copy. 
-
-    4. These will be top-of-funnel campaigns, so cost will be measured based on CPM.
+**What about the children? Less is more** Strong inverse correlation between children at home and most* KPIs
+*All types of product sales and most campaign responses
+Customers with no children are preferable
+Perform a segmented analysis with more specific data
+Calculate and compare CLV/CAC per customer segment
      
 ![](Dashboard_Screenshots/channel.png)
+**Diversify online presence; gain performance insights**
+Younger customers with lower incomes are more likely to purchase online and use discounts
+Correlation supports the sample’s receptiveness to discounts
+Sparse web visits may be linked to low email list open rates
+Solve with a value-add: Include promo codes with marketing emails
+Encourage activity across multiple channels
+Web traffic may be a weak point and may require improvement
  
 **Campaign Type:**
 Campaign 6 was responsible for most of our sales conversions by a margin of 200%. But for a few different reasons, the conclusions we can draw from this knowledge are limited by the depth of our dataset. We're now encouraged to ask new questions:
 
-• What were the types of each campaign? If 6 was our only sales conversion campaign, and others were lead gen or engagement campaigns, then our limited breadth of metrics are apples and oranges.
+- What were the types of each campaign? If 6 was our only sales conversion campaign, and others were lead gen or engagement campaigns, then our limited breadth of metrics are apples and oranges.
 
-• When did these campaigns start and end? Use this information to filter sales metrics by concurrent campaign response data.
+- When did these campaigns start and end? Use this information to filter sales metrics by concurrent campaign response data.
  
 ![](Dashboard_Screenshots/moving_forward.png)
  
@@ -84,12 +93,12 @@ Campaign 6 was responsible for most of our sales conversions by a margin of 200%
 
 In addition to Married and Single, we have:
 
-• Together
-• Divorced
-• Widowed
-• Alone
-• Absurd
-• Yolo
+- Together
+- Divorced
+- Widowed
+- Alone
+- Absurd
+- Yolo
 
 There is no documentation to elaborate on the meaning of these values. While some remote inferences can be made, they were grouped into a collective Other category for the sake of consistency.
 
