@@ -53,7 +53,7 @@ All in all, these are the dataframes we need to create in Python
 - Campaign 3 related to increase of web visits, but not web sales (TOF, eval with CPM)
 - Campaign 4 was more likely to convert via web (BOF, eval with CPC)
  
-![](Dashboard_Screenshots/demographics.png)
+![](Dashboard_Screenshots/product.png)
  
 **Come for the wine, stay for everything else** 
 - Wine sales are greater than the sales of all other categories combined
@@ -63,7 +63,7 @@ All in all, these are the dataframes we need to create in Python
 - Basket size is an important metric that we don’t have
     - Large basket sizes may compensate for less frequent visits (*see: channels -> website visits*)
      
-![](Dashboard_Screenshots/product.png)
+![](Dashboard_Screenshots/demographics.png)
  
 **What about the children? Less is more** 
 - Strong inverse correlation between children at home and most KPIs
@@ -73,6 +73,7 @@ All in all, these are the dataframes we need to create in Python
 - Calculate and compare CLV/CAC per customer segment
      
 ![](Dashboard_Screenshots/channel.png)
+ 
 **Diversify online presence; gain performance insights**
 - Younger customers with lower incomes are more likely to purchase online and use discounts
     - Correlation supports the sample’s receptiveness to discounts
