@@ -37,8 +37,9 @@ All in all, these are the dataframes we need to create in Python
 1. We know that we'll want to use this data to create a correlation matrix in Tableau. But first, we need to clean and restructure our data. We started by importing the dataset and calling it **'shopdf'**.
 2. **Cleaning** is very straightforward in this project. First, we take inventory of our dataset and look over our datatypes. We strip whitespace where necessary, convert Income values to float, and convert Dt_customer to datetime. Additionally, we use Birthdate to create a brand new Age column with a simple difference calculation.
 3. **Restructuring** includes renaming and rearranging columns, creating **'productsdf'**, and recategorizing Marital Status values (see *Data Insights -> Demographics* for more info).
-4. In order to create a many-to-many correlation matrix with our cleaned data (**'shopdf'**), we would need to use multiple pivots in Tableau to restructure our columns. Tableau only allows for a single pivot, so instead, we opt to use the .melt function while we're still in Python to create a new, Tableau-friendly dataframe: **'shopmatrixdf'** 
-5. Once our three dataframes were exported, Tableau and Figma were used in tandem to create the complete [dashboard]. 
+4. We then visualize our data with a Seaborn heatmap to get an idea of how it should look in Tableau.
+5. In order to create a many-to-many correlation matrix with our cleaned data (**'shopdf'**), we would need to use multiple pivots in Tableau to restructure our columns. Tableau only allows for a single pivot, so instead, we opt to use the .melt function while we're still in Python to create a new, Tableau-friendly dataframe: **'shopmatrixdf'** 
+6. Once our three dataframes were exported, Tableau and Figma were used in tandem to create the complete [dashboard]. 
 
 
 ## Data Insights
