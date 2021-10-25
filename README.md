@@ -49,7 +49,7 @@ This readme includes various screenshots, but you can view the actual dashboard 
 
     4. These will be top-of-funnel campaigns, so cost will be measured based on CPM.
      
-![](Dashboard_Screenshots/purchase_method.png)
+![](Dashboard_Screenshots/channel.png)
  
 **Campaign Type:**
 Campaign 6 was responsible for most of our sales conversions by a margin of 200%. But for a few different reasons, the conclusions we can draw from this knowledge are limited by the depth of our dataset. We're now encouraged to ask new questions:
