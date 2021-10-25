@@ -36,13 +36,13 @@ All in all, these are the dataframes we need to create in Python
 
 1. We know that we'll want to use this data to create a correlation matrix in Tableau. But first, we need to clean and restructure our data. We started by importing the dataset and calling it **'shopdf'**.
 2. **Cleaning** is very straightforward in this project. First, we take inventory of our dataset and look over our datatypes. We strip whitespace where necessary, convert Income values to float, and convert Dt_customer to datetime. Additionally, we use Birthdate to create a brand new Age column with a simple difference calculation.
-3. **Restructuring** includes renaming and rearranging columns, creating **'productsdf'**, and recategorizing Marital Status values (see *notebook* for more info).
+3. **Restructuring** includes renaming and rearranging columns, creating **'productsdf'**, and recategorizing Marital Status values (see *Data Insights -> Demographics* for more info).
 4. In order to create a many-to-many correlation matrix with our cleaned data (**'shopdf'**), we would need to use multiple pivots in Tableau to restructure our columns. Tableau only allows for a single pivot, so instead, we opt to use the .melt function while we're still in Python to create a new, Tableau-friendly dataframe: **'shopmatrixdf'** 
 5. Once our three dataframes were exported, Tableau and Figma were used in tandem to create the complete [dashboard]. 
 
 
 ## Data Insights
-**Insights were mainly driven by the correlation matrix, but I've included graphics of bar charts here to aid with impact and performance** 
+**Insights were mainly driven by the correlation matrix [dashboard], but I've included graphics of bar charts here to aid with impact and performance** 
 ![](Dashboard_Screenshots/campaign.png)
  
 **Each campaign has its own strengths and weaknesses** 
@@ -80,6 +80,21 @@ All in all, these are the dataframes we need to create in Python
 - Customers with no children are preferable
 - Perform a segmented analysis with more specific data
 - Calculate and compare CLV/CAC per customer segment
+
+- Marital Status 
+    - The importance of marital status as a metric is its pertinence to detailed targeting in FB/IG ads 
+    - We can target a few different types of relationship statuses, however our dataset includes some undesirable/ambiguous values
+
+    >In addition to Married and Single, we have:
+
+    > - Together
+    > - Divorced
+    > - Widowed
+    > - Alone
+    > - Absurd
+    >- Yolo
+
+There is no documentation to elaborate on the meaning of these values. While some remote inferences can be made, they were grouped into a collective Other category for the sake of consistency.
      
 ![](Dashboard_Screenshots/channel.png)
  
@@ -91,22 +106,8 @@ All in all, these are the dataframes we need to create in Python
 - Encourage activity across multiple channels
 - Web traffic may be a weak point and may require improvement
  
-
- 
 ![](Dashboard_Screenshots/moving_forward.png)
  
-**Marital Status:** The importance of marital status as a metric is its pertinence to detailed targeting in FB/IG ads. We can target a few different types of relationship statuses, however our dataset includes some undesirable/ambiguous values.
-
-In addition to Married and Single, we have:
-
-- Together
-- Divorced
-- Widowed
-- Alone
-- Absurd
-- Yolo
-
-There is no documentation to elaborate on the meaning of these values. While some remote inferences can be made, they were grouped into a collective Other category for the sake of consistency.
 
 ## In Hindsight
 
