@@ -112,7 +112,7 @@ All in all, these are the dataframes we need to create in Python
 
 This analysis gave us plenty of insight into our dataset and the campaigns that our company has been running. Now that we've created this correlation matrix and broken down our findings, our next step is to think about what's still missing from our analysis, and what we'll need before we make some concrete decisions.
 
-It would be beneficial to follow up this project with a more in-depth examination of our campaigns with cooccurrence data, but of course we'd need an entirely different dataset for that. While we do have customer data, we're still missing the element of time, which would give us information necessary to deduce exactly how successful each campaign was. In other words, we don't know what profits were made during the runnings of each campaign. Right now, we only know whether a customer has or hasn't responded to a campaign, and how much of a certain product that customer purchased. 
+It would be beneficial to follow up this project with a more in-depth examination of our campaigns via co-occurrence, but this would require an entirely different dataset than what we have now. While we do have customer data, we're still missing the element of time, which would give us information necessary to deduce exactly how successful each campaign was. In other words, we don't know what profits were made during the runnings of each campaign. Right now, we only know whether a customer has or hasn't responded to a campaign, and how much of a certain product that customer purchased. Basing decisions off of just this data would be jumping to conclusions too soon.
 
 This is just scratching the surface. The graphic below details what needs to be done to move forward with our analysis.
 
