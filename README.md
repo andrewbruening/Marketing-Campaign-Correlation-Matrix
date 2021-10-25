@@ -83,16 +83,15 @@ All in all, these are the dataframes we need to create in Python
 
 - Marital Status 
     - The importance of marital status as a metric is its pertinence to detailed targeting in FB/IG ads 
-    - We can target a few different types of relationship statuses, however our dataset includes some undesirable/ambiguous values
- 
-    >In addition to Married and Single, we have:
+    - We can target a few different types of relationship statuses, however our dataset includes some undesirable/ambiguous values:
+         
     > 
     > - Together
     > - Divorced
     > - Widowed
     > - Alone
     > - Absurd
-    >- Yolo
+    > - Yolo
 
     - There is no documentation to elaborate on the meaning of these values. 
     - While some remote inferences can be made, they were grouped into a collective Other category for the sake of consistency.
