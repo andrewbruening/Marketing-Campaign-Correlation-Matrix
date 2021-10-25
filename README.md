@@ -47,9 +47,9 @@ All in all, these are the dataframes we need to create in Python
  
 **Each campaign has its own strengths and weaknesses** 
 - Campaigns 1 and 5
-    Strong inverse correlation with website views 
-    TOF: Keep submission forms local to Facebook/Instagram/etc.
-    BOF: Capture leads, opt for email marketing for conversions
+    - Strong inverse correlation with website views 
+    - TOF: Keep submission forms local to Facebook/Instagram/etc.
+    - BOF: Capture leads, opt for email marketing for conversions
 - Campaign 3 related to increase of web visits, but not web sales (TOF, eval with CPM)
 - Campaign 4 was more likely to convert via web (BOF, eval with CPC)
  
