@@ -77,15 +77,17 @@ All in all, these are the dataframes we need to create in Python
 **What about the children? Less is more** 
 - Strong inverse correlation between children at home and most KPIs
     - All types of product sales and most campaign responses
-- Customers with no children are preferable
-- Perform a segmented analysis with more specific data
-- Calculate and compare CLV/CAC per customer segment
+    - Customers with no children are preferable
+    - Perform a segmented analysis with more specific data
+    - Calculate and compare CLV/CAC per customer segment
 
 - Marital Status 
     - The importance of marital status as a metric is its pertinence to detailed targeting in FB/IG ads 
     - We can target a few different types of relationship statuses, however our dataset includes some undesirable/ambiguous values:
-         
-    > 
+
+    >      
+    > - Married
+    > - Single
     > - Together
     > - Divorced
     > - Widowed
@@ -109,14 +111,47 @@ All in all, these are the dataframes we need to create in Python
 ![](Dashboard_Screenshots/moving_forward.png)
  
 
-## In Hindsight
+## Looking Back
 
-This was an earlier project of mine. If I were to approach this project with the experience that I have now, the main difference I'd make in my actions is with the dashboard design. There are a number of ways I could go about making it more intuitive, organized, and aesthetically pleasing. For example, it would be beneficial to add separate dashboard pages or show/hide buttons to reduce clutter. This is a lot of information to squeeze into a 1600x900px space.
+This analysis gave us plenty of insight into our dataset and the campaigns that our company has been running. Now that we've created this correlation matrix and broken down our findings, our next step is to think about what's still missing from our analysis, and what we'll need before we make some concrete decisions.
 
-I've noticed that the most successful dashboards are the easiest to digest. Overall, I enjoy the monochrome color palette and the variety of graphs/charts that I included.  Marketing/BI analysts should have no problems using my dashboard. But looking back, I've realized that I've gained plenty of experience since working on this. It's been a refreshing way to take note of what I should do differently next time around.
+Mainly, I'm referring to following up this project with a more in-depth examination of our campaigns with cooccurrence data. While we do have customer data, we're still missing the element of time, which would give us information necessary to deduce exactly how successful each campaign was. In other words, we don't know what profits were made during the running of each campaign. Right now, we only know whether a customer has or hasn't responded to a campaign, and how much of a certain product that customer purchased. 
 
-I may revisit this in the future! If I do, I'll include before and after images.
+This is just scratching the surface. The graphic below details what needs to be done to move forward with our analysis.
 
+## Moving Forward
+ 
+![](Dashboard_Screenshots/moving_forward.png)
+ 
+1. Acquire important missing data points
+    - Web Performance
+        - Open Rates
+        - Basket Size
+    - Campaign Data
+        - Type (engagement, lead gen, etc.)
+        - Placements
+        - Dates active
+    - CLV/CAC
+        - Profit margin
+        - Number of purchases
+2. Perform customer segmentation analysis
+    - Demographics
+        - Number of children
+        - Age bins
+    - Channels
+        - Store vs web
+        - Is the catalog profitable?
+    - Financial contribution
+        - Compare CAC
+3. Establish and pivot for new goal metrics
+    - Campaigns
+        - CPM/CPC (depending on campaign type)
+        - ROAS
+        - CLV/CAC
+    - North Star Metric?
+        - CLV?
+        - Value of daily purchases?
+    - Set next-quarter benchmarks
 ## See the complete interactive dashboard [here]
 
 </details>
