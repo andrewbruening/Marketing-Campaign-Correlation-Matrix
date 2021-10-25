@@ -42,7 +42,7 @@ All in all, these are the dataframes we need to create in Python
 
 
 ## Data Insights
- 
+**Insights were mainly driven by the correlation matrix, but I've included graphics of bar charts here to aid with impact and performance** 
 ![](Dashboard_Screenshots/campaign.png)
  
 **Each campaign has its own strengths and weaknesses** 
@@ -50,8 +50,14 @@ All in all, these are the dataframes we need to create in Python
     - Strong inverse correlation with website views 
     - TOF: Keep submission forms local to Facebook/Instagram/etc.
     - BOF: Capture leads, opt for email marketing for conversions
+     
 - Campaign 3 related to increase of web visits, but not web sales (TOF, eval with CPM)
+ 
 - Campaign 4 was more likely to convert via web (BOF, eval with CPC)
+ 
+- Campaign 6 was responsible for most of our sales conversions by a margin of 200%. But for a few different reasons, the conclusions we can draw from this knowledge are limited by the depth of our dataset. We're now encouraged to ask new questions:
+    - What were the types of each campaign? If 6 was our only sales conversion campaign, and others were lead gen or engagement campaigns, then our limited breadth of metrics are apples and oranges.
+    - When did these campaigns start and end? Use this information to filter sales metrics by concurrent campaign response data.
  
 ![](Dashboard_Screenshots/product.png)
  
@@ -82,12 +88,7 @@ All in all, these are the dataframes we need to create in Python
 - Encourage activity across multiple channels
 - Web traffic may be a weak point and may require improvement
  
-**Campaign Type:**
-Campaign 6 was responsible for most of our sales conversions by a margin of 200%. But for a few different reasons, the conclusions we can draw from this knowledge are limited by the depth of our dataset. We're now encouraged to ask new questions:
 
-- What were the types of each campaign? If 6 was our only sales conversion campaign, and others were lead gen or engagement campaigns, then our limited breadth of metrics are apples and oranges.
-
-- When did these campaigns start and end? Use this information to filter sales metrics by concurrent campaign response data.
  
 ![](Dashboard_Screenshots/moving_forward.png)
  
