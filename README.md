@@ -10,8 +10,9 @@
  
 ![](Dashboard_Screenshots/dashboard.jpg)
  
-This readme includes various screenshots, but you can view the interactive dashboard [here]
-The dataset was taken from Kaggle, thanks to user [JackDaoud]
+This readme includes various screenshots, but you can view the interactive dashboard [here].
+ 
+The dataset was taken from Kaggle, thanks to user [JackDaoud].
 
 ## Approach
 **The is a CSV file of 2240 observations (customers) with 28 variables related to marketing data.** 
@@ -24,7 +25,7 @@ More specifically, the variables provide insights about:
 
 
 
-All in all, these are the dataframes we need to create
+All in all, these are the dataframes we need to create in Python
 
 | Dataframe | Description |
 | :----------- | :----------- |
