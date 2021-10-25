@@ -6,18 +6,36 @@
 - ⛳ A nice quote: "If it's worth doing, it's worth doing well"
 
 ## XYZ Marketing Campaign Correlation Matrix
-**AdventureWorks is a Microsoft product sample for an online transaction processing (OLTP) [database].**
+
  
 ![](Dashboard_Screenshots/dashboard.jpg)
  
-This readme includes various screenshots, but you can view the actual dashboard [here]
-
+This readme includes various screenshots, but you can view the interactive dashboard [here]
+The dataset was taken from Kaggle, thanks to user [JackDaoud]
 
 ## Approach
-1. The pyodbc package was used to connect to the AdventureWorks database and query in python. 
-2. Since we'll be importing our data to Tableau, it's in our best interests to work from one large dataframe. This isn't always possible, but we can take advantage of the opportunity here with **'custdf'**
-3. There wasn't much cleaning to be done, but I did need to convert the **BirthDate** column to a brand new **Age** column. I wrote a custom function and used the difference between today's date and BirthDate to make Age.
-4. A few dashboard elements were designed in Figma, then everything was imported to Tableau for dashboard creation. 
+**The is a CSV file of 2240 observations (customers) with 28 variables related to marketing data.** 
+More specifically, the variables provide insights about:
+
+- Customer profiles
+- Products purchased
+- Campaign success (or failure)
+- Channel performance
+
+
+
+All in all, these are the dataframes we need to create
+
+| Dataframe | Description |
+| :----------- | :----------- |
+| productsdf | Sum of numerical values, intended for simple Tableau bar chart |
+| shopdf | Not formatted for Tableau, is used to create shopmatrixdf |
+| shopmatrixdf | shopdf with .melt applied, is properly formatted for corr. matrix in Tableau |
+
+1. We know that we'll want to use this data to create a correlation matrix in Tableau. But first, we need to clean and restructure our data. We'll start by importing the dataset and calling it **'shopdf'**.
+2. **Cleaning** is very straightforward in this project. First, we took inventory of our dataset and looked over our datatypes. We stripped whitespace where necessary, converted Income values to float, and converted Dt_customer to datetime. Additionally, we used Birthdate to create a brand new Age column with a simple difference calculation.
+3. Next, we rearranged and renamed columns, created **'productsdf'**, and recatecorized Marital Status values (see *notebook* for more info).
+4. In order to create a many-to-many correlation matrix with our cleaned data (**'shopdf'**), we would need to use multiple pivots in Tableau to restructure our columns. Tableau only allows for a single pivot, so instead, I've opted to use the .melt function while we're still in Python to create a new, Tableau-friendly dataframe: **'shopmatrixdf'** 
 5. The complete [dashboard] features hover tooltips on most graphics and text boxes.
 
 
@@ -89,4 +107,4 @@ I may revisit this in the future! If I do, I'll include before and after images.
 [Github]: https://github.com/andrewbruening
 [here]: https://public.tableau.com/views/MarketingCampaignCorrelationMatrix/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
 [dashboard]: https://public.tableau.com/views/MarketingCampaignCorrelationMatrix/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
-[Kaggle]: https://www.kaggle.com/jackdaoud/marketing-data
+[JackDaoud]: https://www.kaggle.com/jackdaoud/marketing-data
