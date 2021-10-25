@@ -56,29 +56,30 @@ All in all, these are the dataframes we need to create in Python
 ![](Dashboard_Screenshots/demographics.png)
  
 **Come for the wine, stay for everything else** 
-Wine sales are greater than the sales of all other categories combined
-Sales of all product types were less likely among customers with children
-Incentivize spending for these customers
-Are they more/less likely to be interested in customer rewards programs?
-Basket size is an important metric that we don’t have
-Large basket sizes may compensate for less frequent visits (see: website visits)
+- Wine sales are greater than the sales of all other categories combined
+- Sales of all product types were less likely among customers with children
+    - Incentivize spending for these customers
+    - Are they more/less likely to be interested in customer rewards programs?
+- Basket size is an important metric that we don’t have
+    - Large basket sizes may compensate for less frequent visits (*see: channels -> website visits*)
      
 ![](Dashboard_Screenshots/product.png)
  
-**What about the children? Less is more** Strong inverse correlation between children at home and most* KPIs
-*All types of product sales and most campaign responses
-Customers with no children are preferable
-Perform a segmented analysis with more specific data
-Calculate and compare CLV/CAC per customer segment
+**What about the children? Less is more** 
+- Strong inverse correlation between children at home and most KPIs
+    - All types of product sales and most campaign responses
+- Customers with no children are preferable
+- Perform a segmented analysis with more specific data
+- Calculate and compare CLV/CAC per customer segment
      
 ![](Dashboard_Screenshots/channel.png)
 **Diversify online presence; gain performance insights**
-Younger customers with lower incomes are more likely to purchase online and use discounts
-Correlation supports the sample’s receptiveness to discounts
-Sparse web visits may be linked to low email list open rates
-Solve with a value-add: Include promo codes with marketing emails
-Encourage activity across multiple channels
-Web traffic may be a weak point and may require improvement
+- Younger customers with lower incomes are more likely to purchase online and use discounts
+    - Correlation supports the sample’s receptiveness to discounts
+- Sparse web visits may be linked to low email list open rates
+    - Solve with a value-add: Include promo codes with marketing emails
+- Encourage activity across multiple channels
+- Web traffic may be a weak point and may require improvement
  
 **Campaign Type:**
 Campaign 6 was responsible for most of our sales conversions by a margin of 200%. But for a few different reasons, the conclusions we can draw from this knowledge are limited by the depth of our dataset. We're now encouraged to ask new questions:
