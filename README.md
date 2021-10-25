@@ -108,9 +108,6 @@ All in all, these are the dataframes we need to create in Python
 - Encourage activity across multiple channels
 - Web traffic may be a weak point and may require improvement
  
-![](Dashboard_Screenshots/moving_forward.png)
- 
-
 ## Looking Back
 
 This analysis gave us plenty of insight into our dataset and the campaigns that our company has been running. Now that we've created this correlation matrix and broken down our findings, our next step is to think about what's still missing from our analysis, and what we'll need before we make some concrete decisions.
