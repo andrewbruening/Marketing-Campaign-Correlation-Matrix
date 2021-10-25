@@ -14,12 +14,12 @@ This readme includes various screenshots, but you can view the interactive dashb
  
 The dataset was taken from Kaggle, thanks to user [JackDaoud].
 >"**The is a CSV file of 2240 observations (customers) with 28 variables related to marketing data.** 
-More specifically, the variables provide insights about:
-
-- Customer profiles
-- Products purchased
-- Campaign success (or failure)
-- Channel performance"
+>More specifically, the variables provide insights about:
+>
+>- Customer profiles
+>- Products purchased
+>- Campaign success (or failure)
+>- Channel performance"
 
 ## Approach
 
