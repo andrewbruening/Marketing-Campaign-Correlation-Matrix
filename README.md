@@ -32,11 +32,11 @@ All in all, these are the dataframes we need to create
 | shopdf | Not formatted for Tableau, is used to create shopmatrixdf |
 | shopmatrixdf | shopdf with .melt applied, is properly formatted for corr. matrix in Tableau |
 
-1. We know that we'll want to use this data to create a correlation matrix in Tableau. But first, we need to clean and restructure our data. We'll start by importing the dataset and calling it **'shopdf'**.
+1. We know that we'll want to use this data to create a correlation matrix in Tableau. But first, we need to clean and restructure our data. We started by importing the dataset and calling it **'shopdf'**.
 2. **Cleaning** is very straightforward in this project. First, we took inventory of our dataset and looked over our datatypes. We stripped whitespace where necessary, converted Income values to float, and converted Dt_customer to datetime. Additionally, we used Birthdate to create a brand new Age column with a simple difference calculation.
-3. Next, we rearranged and renamed columns, created **'productsdf'**, and recatecorized Marital Status values (see *notebook* for more info).
-4. In order to create a many-to-many correlation matrix with our cleaned data (**'shopdf'**), we would need to use multiple pivots in Tableau to restructure our columns. Tableau only allows for a single pivot, so instead, I've opted to use the .melt function while we're still in Python to create a new, Tableau-friendly dataframe: **'shopmatrixdf'** 
-5. The complete [dashboard] features hover tooltips on most graphics and text boxes.
+3. **Restructuring** included renaming and rearranging columns, creating **'productsdf'**, and recategorizing Marital Status values (see *notebook* for more info).
+4. In order to create a many-to-many correlation matrix with our cleaned data (**'shopdf'**), we would need to use multiple pivots in Tableau to restructure our columns. Tableau only allows for a single pivot, so instead, we opted to use the .melt function while we're still in Python to create a new, Tableau-friendly dataframe: **'shopmatrixdf'** 
+5. Once our three dataframes were exported, Tableau and Figma were used in tandem to create the complete [dashboard]. 
 
 
 ## Data Insights
