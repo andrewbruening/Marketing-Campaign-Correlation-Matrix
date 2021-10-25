@@ -42,7 +42,7 @@ All in all, these are the dataframes we need to create in Python
 
 
 ## Data Insights
-**Insights were mainly driven by the correlation matrix [dashboard], but I've included graphics of bar charts here to aid with impact and performance** 
+**Insights were mainly driven by the correlation matrix [dashboard], but I've included graphics of bar charts here to aid with impact and context** 
 ![](Dashboard_Screenshots/campaign.png)
  
 **Each campaign has its own strengths and weaknesses** 
