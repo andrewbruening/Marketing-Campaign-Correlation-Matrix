@@ -51,11 +51,14 @@ All in all, these are the dataframes we need to create in Python
     - TOF: Keep submission forms local to Facebook/Instagram/etc.
     - BOF: Capture leads, opt for email marketing for conversions
      
-- Campaign 3 related to increase of web visits, but not web sales (TOF, eval with CPM)
+- Campaign 3 
+    - Related to increase of web visits, but not web sales (TOF, eval with CPM)
  
-- Campaign 4 was more likely to convert via web (BOF, eval with CPC)
+- Campaign 4 
+    - More likely to convert via web (BOF, eval with CPC)
  
-- Campaign 6 was responsible for most of our sales conversions by a margin of 200%. But for a few different reasons, the conclusions we can draw from this knowledge are limited by the depth of our dataset. We're now encouraged to ask new questions:
+- Campaign 6 
+    - Responsible for most of our sales conversions by a margin of 200%. But for a few different reasons, the conclusions we can draw from this knowledge are limited by the depth of our dataset. We're now encouraged to ask new questions:
     - What were the types of each campaign? If 6 was our only sales conversion campaign, and others were lead gen or engagement campaigns, then our limited breadth of metrics are apples and oranges.
     - When did these campaigns start and end? Use this information to filter sales metrics by concurrent campaign response data.
  
